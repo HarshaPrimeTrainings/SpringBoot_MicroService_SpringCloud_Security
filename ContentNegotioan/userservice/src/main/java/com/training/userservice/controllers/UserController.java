@@ -34,13 +34,13 @@ public class UserController {
 		return new ResponseEntity<String>("Hello From UserService "+ name,HttpStatus.ACCEPTED);
 	}
 
-	@GetMapping(value =  "/users",consumes = {"application/json"})
+	@GetMapping(value =  "/users")
 	public ResponseEntity<List<User>> getusers() {
 		return new ResponseEntity<List<User>>(servivce.getUsers(),HttpStatus.OK);
 	}
 
 	
-	@RequestMapping(value = "/user/{uid}", produces = MediaType.APPLICATION_XML_VALUE)
+	@GetMapping(value = "/user/{uid}")
 	public ResponseEntity<User> getUserById(@PathVariable int uid) {
 		return new ResponseEntity<User>(servivce.getUserById(uid),HttpStatus.OK);
 	}
