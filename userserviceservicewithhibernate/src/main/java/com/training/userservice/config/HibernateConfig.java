@@ -1,5 +1,7 @@
 package com.training.userservice.config;
 
+import javax.sql.DataSource;
+
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
 import org.hibernate.boot.MetadataSources;
@@ -10,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class HibernateConfig {
+	
 
 	@Bean
 	SessionFactory initsf() {
