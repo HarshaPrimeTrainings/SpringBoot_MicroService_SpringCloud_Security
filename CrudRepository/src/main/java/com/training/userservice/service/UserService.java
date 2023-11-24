@@ -34,6 +34,22 @@ public class UserService {
 	}
 	
 	
+	public User getUserByName(String username) {
+		return repo.findByUsername(username);
+	}
+	
+	public User getUserByEmail(String email) {
+		return repo.getUserByEmail(email);
+	}
+	
+	public String getEmailByUserName(String username) {
+		return repo.getEmailByUserName(username);
+	}
+	
+	public List<User> getUserByAddres(String addr) {
+		return repo.getByAddress(addr);
+	}
+	
 	public User updateUser(int uid , User usr) {
 		
 		User existingUser =getUserById(uid);

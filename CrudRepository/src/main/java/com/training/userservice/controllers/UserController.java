@@ -38,12 +38,30 @@ public class UserController {
 		return new ResponseEntity<List<User>>(servivce.getUsers(),HttpStatus.OK);
 	}
 
+	@GetMapping("/username/{name}")
+	public ResponseEntity<User> getUserByName(@PathVariable String name){
+		return new ResponseEntity<User>(servivce.getUserByName(name),HttpStatus.OK);
+	}
+	
+	@GetMapping("/userbyaddr/{addr}")
+	public ResponseEntity <List<User>> getUserByAddr(@PathVariable String addr){
+		return new ResponseEntity<List<User>>(servivce.getUserByAddres(addr),HttpStatus.OK);
+	}
 	
 	@GetMapping(value = "/user/{uid}")
 	public ResponseEntity<User> getUserById(@PathVariable int uid) {
 		return new ResponseEntity<User>(servivce.getUserById(uid),HttpStatus.OK);
 	}
 
+	@GetMapping(value = "/userbyemail/{email}")
+	public ResponseEntity<User> getUserByEmail(@PathVariable String email) {
+		return new ResponseEntity<User>(servivce.getUserByEmail(email),HttpStatus.OK);
+	}
+	
+	@GetMapping(value = "/email/{username}")
+	public ResponseEntity<String> getEmailByUserName(@PathVariable String username) {
+		return new ResponseEntity<String>(servivce.getEmailByUserName(username),HttpStatus.OK);
+	} 
 	
 	@PostMapping(value = "/save")
 	public ResponseEntity<User> saveUser(@RequestBody User usr) {
