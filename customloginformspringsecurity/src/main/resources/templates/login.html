@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+	<h1>Spring Security Custom Login</h1>
+	<div th:if="${param.error}" style="color:red">
+	Login Failed username/password not matched 
+	</div>
+	<div th:if="${param.logout}" style="color:aqua">
+			Logout successfull
+	</div>
+	<form action="/login" method="post">
+	Username<input type="text" name="username"><br/><br/>
+	Password<input type="password" name="password"><br/><br/>
+	<input type="submit" value="LOGIN">
+	</form>
+</center>
+</body>
+</html>

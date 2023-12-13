@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Hello There! Welcome [[${#httpServletRequest.remoteUser}]]</h1>
+<button><a href="/notification">Notifications</a></button> &nbsp; &nbsp;
+ <form method="post" action="/logout">
+ 
+ <input type="submit" value="LOGOUT">
+ </form>
+</body>
+</html>
