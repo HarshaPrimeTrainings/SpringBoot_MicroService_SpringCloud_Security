@@ -11,5 +11,6 @@ Ex: http://localhost:8080/swagger-ui.html#/
 
 - insert into roles values(1,'ROLE_USER');
 - insert into roles values(2,'ROLE_ADMIN');
+# To Access Resource we need authenticate, So we can generate toke like below
 
-![token generate/ user login ](https://github.com/HarshaVardhanAcharyAthaluri/SpringBoot-SpringCloud-Microservices/blob/main/usercreate.PNG)
+![token generate/ user login ](https://github.com/HarshaPrimeTrainings/SpringBoot_MicroService_SpringCloud_Security/blob/main/tokengenerate.PNG)
