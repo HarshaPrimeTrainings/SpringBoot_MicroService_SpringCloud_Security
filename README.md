@@ -20,9 +20,7 @@ Ex: http://localhost:8080/swagger-ui.html#/
 ![token generate/ user login ](/assets/images/tokengenerate.png)
 
 # Getting get users
-<img src="https://github.com/HarshaPrimeTrainings/SpringBoot_MicroService_SpringCloud_Security/blob/main/assets/images/accesusers.png"/>
 ![access users ](/assets/images/accesusers.png)
-
 
 # Docker Image Creation
 `docker build -f Dockerfile -t mydemoimage . ("." is current location)`
