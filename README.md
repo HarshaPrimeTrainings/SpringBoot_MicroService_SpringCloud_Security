@@ -19,7 +19,7 @@ Ex: http://localhost:8080/swagger-ui.html#/
 ![token generate/ user login ](https://github.com/HarshaPrimeTrainings/SpringBoot_MicroService_SpringCloud_Security/blob/main/tokengenerate.PNG)
 
 # Getting get users
-![access users ](https://github.com/HarshaPrimeTrainings/SpringBoot_MicroService_SpringCloud_Security/blob/main/accesusers.PNG)
+![access users ](/assets/images/accesusers.PNG)
 
 
 # Docker Image Creation
