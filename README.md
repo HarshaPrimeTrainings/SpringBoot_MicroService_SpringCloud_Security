@@ -13,13 +13,13 @@ Ex: http://localhost:8080/swagger-ui.html#/
 - insert into roles values(2,'ROLE_ADMIN');
 
 # User Creation
-![token generate/ user login ](https://github.com/HarshaPrimeTrainings/SpringBoot_MicroService_SpringCloud_Security/blob/main/usercreate.PNG)
+![token generate/ user login ](/assets/images/usercreate.png)
 
 # Token Generation
-![token generate/ user login ](https://github.com/HarshaPrimeTrainings/SpringBoot_MicroService_SpringCloud_Security/blob/main/tokengenerate.PNG)
+![token generate/ user login ](/assets/images/tokengenerate.png)
 
 # Getting get users
-![access users ](/assets/images/accesusers.PNG)
+![access users ](/assets/images/accesusers.png)
 
 
 # Docker Image Creation
