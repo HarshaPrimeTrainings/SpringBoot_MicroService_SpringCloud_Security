@@ -15,7 +15,6 @@ Ex: http://localhost:8080/swagger-ui.html#/
 # User Creation
 ![token generate/ user login ](/assets/images/usercreate.png)
 
-![token generate/ user login ](/assets/images/usercreate.jpg)
 # Token Generation
 ![token generate/ user login ](/assets/images/tokengenerate.png)
 
